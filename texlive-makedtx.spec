@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /support/makedtx
+# catalog-date 2007-10-18 16:19:02 +0200
+# catalog-license lppl
+# catalog-version 0.94b
 Name:		texlive-makedtx
 Version:	0.94b
 Release:	1
@@ -50,6 +56,7 @@ the associated installation (.ins) script.
 #- source
 %doc %{_texmfdistdir}/source/latex/makedtx/makedtx.dtx
 %doc %{_texmfdistdir}/source/latex/makedtx/makedtx.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -60,3 +67,5 @@ the associated installation (.ins) script.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
