@@ -6,7 +6,7 @@
 # catalog-version 0.94b
 Name:		texlive-makedtx
 Version:	0.94b
-Release:	6
+Release:	7
 Summary:	Perl script to help generate dtx and ins files
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/support/makedtx
