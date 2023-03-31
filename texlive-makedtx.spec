@@ -1,6 +1,6 @@
 Name:		texlive-makedtx
 Version:	46702
-Release:	1
+Release:	2
 Summary:	Perl script to help generate dtx and ins files
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/support/makedtx
