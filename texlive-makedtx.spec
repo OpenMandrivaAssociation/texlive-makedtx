@@ -3,7 +3,7 @@ Version:	46702
 Release:	2
 Summary:	Perl script to help generate dtx and ins files
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/support/makedtx
+URL:		https://www.ctan.org/tex-archive/support/makedtx
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/makedtx.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/makedtx.doc.r%{version}.tar.xz
