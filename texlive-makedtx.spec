@@ -1,5 +1,6 @@
 %global tl_name makedtx
 %global tl_revision 77871
+%global tl_bin_links makedtx:%{_texmfdistdir}/scripts/makedtx/makedtx.pl
 
 Name:		texlive-%{tl_name}
 Epoch:		1
@@ -16,6 +17,8 @@ BuildArch:	noarch
 BuildSystem:	texlive
 Requires:	texlive(makedtx.bin)
 Provides:	texlive(%{tl_name}) = %{tl_revision}
+Provides:	texlive(%{tl_name}.bin) = %{tl_revision}
+Provides:	texlive-%{tl_name}.bin = %{EVRD}
 
 %description
 The makedtx bundle is provided to help LaTeX2e developers to write the
